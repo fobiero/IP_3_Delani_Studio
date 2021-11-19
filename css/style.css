@@ -106,3 +106,28 @@ section {
     width: 100%;
     margin-bottom: 1rem;
 }
+
+
+/* contact  */
+
+.contact {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+}
+
+.inputField input {
+    background: none;
+    border: 1px solid #fff;
+    padding: 1rem;
+    margin: 2rem 1rem;
+    outline: none;
+}
+
+.contact textarea {
+    max-width: 600px;
+    height: 200px;
+    background: none;
+    border: 1px solid #fff;
+}
