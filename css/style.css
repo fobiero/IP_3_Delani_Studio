@@ -21,6 +21,10 @@ body {
     font-weight: 400;
 }
 
+section {
+    padding: 3rem 0;
+}
+
 
 /* home  */
 
@@ -71,4 +75,34 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../assets/backgrounds/s_image.jpg);
+}
+
+
+/* what we do  */
+
+.offer {
+    padding: 3rem 0;
+}
+
+.offer .col-data {
+    padding: 3rem 0;
+}
+
+.offer .col-data .h_offer {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+}
+
+
+/* portfolio  */
+
+.p_folio_1 img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.p_folio_2 img {
+    width: 100%;
+    margin-bottom: 1rem;
 }
