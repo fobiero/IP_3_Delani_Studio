@@ -5,10 +5,19 @@
     box-sizing: border-box;
 }
 
-:root {}
-
 body {
     font-family: Poppins, sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+
+.p-text {
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 
@@ -49,7 +58,33 @@ body {
 }
 
 .home-content img {
-    width: 2rem;
+    width: 1.4rem;
+    margin: 5rem 0 0 0;
+    height: auto;
     text-align: center;
     /* height: 2rem; */
 }
+
+
+/* about us  */
+
+.about-us {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+/* services  */
+
+.services {
+    color: #fff;
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    text-align: center;
+    padding: 5rem 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* portfolio  */
