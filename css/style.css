@@ -6,89 +6,69 @@
 }
 
 body {
+    text-align: center;
     font-family: Poppins, sans-serif;
+    /* background-color: yellowgreen; */
 }
 
-.title {
-    font-size: 2rem;
+.titles {
     text-transform: uppercase;
-    padding: 2rem 0;
+    font-size: 2.5rem;
 }
 
-.p-text {
-    font-size: 1rem;
-    font-weight: 300;
+.p_text {
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 
 /* home  */
 
-.home {
-    justify-content: center;
-    color: #fff;
-    padding: 5rem 0 2rem 0;
-    text-align: center;
+.home-content {
+    align-items: center;
     background-image: url(../assets/backgrounds/h_img.jpg);
-    background-repeat: no-repeat;
+    color: #fff;
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    padding: 20rem 0 2rem 0;
+    text-align: center;
 }
 
-.home-content a {
-    list-style: none;
-    text-decoration: none;
-}
-
-.home-content a img {
-    width: 3rem;
-    height: 3rem;
-    margin: 1rem 0;
-}
-
-.home-content h1 {
+.home-content .main_title {
     text-transform: uppercase;
-    line-height: 2.7rem;
-    font-size: 1.7 rem;
+    margin: 2rem 0 0 0;
+    line-height: 5.4rem;
+    font-size: 4rem;
+    font-weight: 400;
 }
 
 .home-content p {
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 1rem 0 10rem 0;
 }
 
-.home-content img {
-    width: 1.4rem;
-    margin: 5rem 0 0 0;
-    height: auto;
-    text-align: center;
-    /* height: 2rem; */
+.home-content #mouse {
+    margin-bottom: 2rem;
 }
 
 
-/* about us  */
+/* about  */
 
 .about-us {
-    text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 
-/* services  */
+/* end about us  */
 
 .services {
     color: #fff;
-    background-image: url(../assets/backgrounds/s_image.jpg);
-    text-align: center;
-    padding: 5rem 0;
+    padding: 10rem 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-
-/* portfolio  */
-
-.portfolio {
-    /* text-align: center; */
+    background-image: url(../assets/backgrounds/s_image.jpg);
 }
