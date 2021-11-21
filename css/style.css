@@ -112,37 +112,57 @@ section {
 /* contact  */
 
 .contact {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../assets/backgrounds/c_image.jpg);
 }
 
-.inputField input {
-    background: none;
-    border: 1px solid #fff;
+.contact input {
+    width: 60%;
     padding: 1rem;
-    margin: 2rem 1rem;
-    outline: none;
+    margin: 1.5rem 0;
     color: #fff;
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
     letter-spacing: .2rem;
 }
 
-.inputField input::placeholder {
+#name {
+    float: right;
+}
+
+#email {
+    float: left;
+}
+
+.contact input::placeholder {
     color: #fff;
 }
 
 .contact textarea {
-    padding: 2rem;
-    max-width: 600px;
-    height: 200px;
-    background: none;
-    border: 1px solid #fff;
-    outline: none;
-    color: #fff;
+    height: 15rem;
     letter-spacing: .2rem;
+    width: 60%;
+    margin: 1.5rem 0;
+    padding: 2rem;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
 }
 
 .contact textarea::placeholder {
     color: #fff;
+}
+
+.submit {
+    width: 60%;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
