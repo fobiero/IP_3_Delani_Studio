@@ -182,3 +182,10 @@ section {
 .c_rights p {
     text-transform: uppercase;
 }
+
+
+/* hidden content  */
+
+.col-data .descr {
+    display: none;
+}
