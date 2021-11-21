@@ -166,3 +166,19 @@ section {
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
+
+
+/* SOCIAL ICONS  */
+
+.social-icons {
+    padding: 2rem .7rem;
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    opacity: .4;
+}
+
+.c_rights p {
+    text-transform: uppercase;
+}
