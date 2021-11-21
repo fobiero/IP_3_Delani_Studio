@@ -105,6 +105,7 @@ section {
 .p_folio_2 img {
     width: 100%;
     margin-bottom: 1rem;
+    padding: 0 0 3rem 0;
 }
 
 
@@ -123,11 +124,25 @@ section {
     padding: 1rem;
     margin: 2rem 1rem;
     outline: none;
+    color: #fff;
+    letter-spacing: .2rem;
+}
+
+.inputField input::placeholder {
+    color: #fff;
 }
 
 .contact textarea {
+    padding: 2rem;
     max-width: 600px;
     height: 200px;
     background: none;
     border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    letter-spacing: .2rem;
+}
+
+.contact textarea::placeholder {
+    color: #fff;
 }
