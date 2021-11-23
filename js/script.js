@@ -1,6 +1,12 @@
 $(document).ready(() => {
     $('#design').click(() => {
-        $('.p-1').show();
+        $('#p-1').toggle();
+    })
+    $('#dev').click(() => {
+        $('#p-2').toggle();
+    })
+    $('#prod').click(() => {
+        $('#p-3').toggle();
     })
 })
 
