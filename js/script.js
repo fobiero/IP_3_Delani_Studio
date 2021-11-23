@@ -1,12 +1,12 @@
 $(document).ready(() => {
     $('#design').click(() => {
-        $('#p-1').toggle();
+        $('#p-1').toggleClass('descr');
     })
     $('#dev').click(() => {
-        $('#p-2').toggle();
+        $('#p-2').toggleClass('descr');
     })
     $('#prod').click(() => {
-        $('#p-3').toggle();
+        $('#p-3').toggleClass('descr');
     })
 })
 
@@ -22,7 +22,7 @@ function getData() {
     } else if (txtMessage == '') {
         alert('empy message')
     } else {
-        alert(`${userName} we have received your message. Thank you for reaching out to us!`);
+        alert(`${userName}, We have received your message. Thank you for reaching out to us!`);
     }
 
 }
