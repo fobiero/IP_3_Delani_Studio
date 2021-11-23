@@ -98,14 +98,14 @@ section {
 /* portfolio  */
 
 .p_folio_1 img {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 1rem;
 }
 
 .p_folio_2 img {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 1rem;
-    padding: 0 0 3rem 0;
+    /* padding: 0 0 3rem 0; */
 }
 
 
@@ -132,7 +132,7 @@ section {
     color: #fff;
     align-items: center;
     display: flex;
-    line-height: 1.2rem;
+    /* line-height: 1.2rem; */
     flex-direction: column;
     justify-content: center;
     opacity: 0;
